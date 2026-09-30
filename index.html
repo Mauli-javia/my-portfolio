@@ -1,0 +1,335 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | IT Student</title>
+
+    <meta name="description"
+          content="Personal portfolio of an IT student showcasing skills, projects, and contact information.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">MyPortfolio</a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="intro">Hello, I'm</p>
+
+                <h1>Mauli</h1>
+
+                <h2>IT Student & Aspiring Developer</h2>
+
+                <p>
+                    I am an Information Technology student interested in
+                    programming, web development, IoT, and building
+                    practical technology projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <!-- Replace profile.jpg with your own image if desired -->
+                <div class="profile-placeholder">
+                    <span>IT</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p>Get to know me</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am an Information Technology student passionate
+                        about learning programming and developing useful
+                        technology solutions.
+                    </p>
+
+                    <p>
+                        I enjoy working with programming languages,
+                        web technologies, IoT devices, sensors, and
+                        microcontrollers such as ESP32.
+                    </p>
+
+                    <p>
+                        My goal is to continuously improve my technical
+                        skills and work on projects that solve real-world
+                        problems.
+                    </p>
+                </div>
+
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h3>Education</h3>
+                        <p>Information Technology</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Interests</h3>
+                        <p>Web Development, IoT, Programming</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Learning</h3>
+                        <p>Java, C++, JavaScript & Networking</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="section-heading">
+                <p>What I work with</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">HTML</div>
+                    <h3>HTML</h3>
+                    <p>Creating semantic and accessible webpage structures.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">CSS</div>
+                    <h3>CSS</h3>
+                    <p>Designing responsive and visually appealing websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interaction and dynamic functionality to websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">C++</div>
+                    <h3>C / C++</h3>
+                    <p>Object-oriented programming and data structures.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JAVA</div>
+                    <h3>Java</h3>
+                    <p>Learning object-oriented programming and application development.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">IoT</div>
+                    <h3>IoT & ESP32</h3>
+                    <p>Working with sensors, microcontrollers, and IoT prototypes.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p>My recent work</p>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-number">01</div>
+
+                    <div class="project-content">
+                        <h3>Face Detection Attendance System</h3>
+
+                        <p>
+                            An automated attendance concept using a camera
+                            and face detection to identify students and
+                            record attendance digitally.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>IoT</span>
+                            <span>ESP32</span>
+                            <span>Face Detection</span>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+
+                    <div class="project-content">
+                        <h3>IoT Health Monitoring System</h3>
+
+                        <p>
+                            An IoT-based project designed to collect
+                            health-related sensor information and display
+                            the collected data through a monitoring system.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>IoT</span>
+                            <span>Sensors</span>
+                            <span>ESP32</span>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+
+                    <div class="project-content">
+                        <h3>Student Programming Projects</h3>
+
+                        <p>
+                            A collection of academic programming projects
+                            involving C++, Java, data structures,
+                            object-oriented programming, and algorithms.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Java</span>
+                            <span>DSA</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <p>Let's connect</p>
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <h3>Have a project or question?</h3>
+
+                    <p>
+                        Feel free to send me a message using the form.
+                    </p>
+
+                    <div class="contact-item">
+                        <strong>Email</strong>
+                        <span>your-email@example.com</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Location</strong>
+                        <span>India</span>
+                    </div>
+                </div>
+
+
+                <form id="contactForm" class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+
+                    <p id="formMessage" class="form-message" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; <span id="year"></span> Mauli. All rights reserved.
+        </p>
+
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
